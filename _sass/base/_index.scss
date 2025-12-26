@@ -3,3 +3,16 @@
 @forward 'typography';
 @forward 'syntax';
 @forward 'rtl';
+
+@import url("../fonts/Vazirmatn-font-face.css");
+
+* {
+    font-family: Vazirmatn, Tahoma, serif !important;
+}
+
+body,
+html,
+button,
+input {
+    font-family: Vazirmatn, Tahoma, serif !important;
+}
